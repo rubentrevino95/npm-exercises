@@ -1,8 +1,6 @@
 const $ = require('jquery');
+$('h1').css('color', 'red');
 
-$('h1').click(function () {
-    $(this).css('color', 'red')
-});
+import {sayHello} from './say-hello.js';
+console.log(sayHello());
 
-// const sayHello = () => console.log('Hello!');
-// sayHello();
